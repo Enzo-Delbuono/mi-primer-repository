@@ -1,6 +1,6 @@
 *{
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #D0BFFF;
+    background-color: #ebebeb
    }
    .grid_container{
     display: grid;  
@@ -30,7 +30,7 @@
    }
 
    .menu-navegacion img{
-       width: 250px;
+       width: 160px;
    }
    
    .menu-navegacion h1{
@@ -39,14 +39,13 @@
        font-size: 300%;
     
    }
-   .menu li{
-    text-align: end;
-    font-size: 150%;
-    margin: 2%;
-    list-style: none;
+   .menu {
+    margin-left: 453px ;
+    font-size: 25px;
     display: flex;
-    flex-direction: column;
-    width: auto;
+   }
+   .enlase{
+    margin: 15px;
    }
 
    .content-img {
@@ -98,7 +97,6 @@
 
    .card1 p {
     width: 350px;
-    background-color: #BEADFA;
    }
 
    .card1 li {
@@ -125,11 +123,21 @@
         width: 450px;
         height: 570px;
    }
+
+   .subtitulos{
+    text-decoration: underline;
+    margin-left: 100px;
+    font-size: 35px;
+   }
    
    .promotions{
     margin-left: 320px;
     margin-right: 25px;
    }
+   .promotions p{
+    text-align: center;
+   }
+
    .img4 {
     margin-right: 100px;
    }
@@ -150,6 +158,10 @@
 
    .boton li{
     list-style: none;
+   }
+
+   .contacto {
+    margin: 10px;
    }
 
    .important {
@@ -178,10 +190,6 @@
     .card4 {
         flex-direction: column;
         background-color: #D0BFFF;
-    }
-
-    .menu ul {
-        margin: initial;
     }
 
     .menu {
