@@ -1,0 +1,28 @@
+@media (min-width: 576px) and (max-width: 767px){
+    .grid_container{
+        display: grid;  
+        grid-template-columns: 1fr ;
+        grid-template-areas: 
+        "menu"
+        "presentacion"
+        "pie"
+        ;
+    }
+    .img1 {
+        width: 400px;
+        margin-left: 100px;
+    }
+    .card1 {
+        flex-direction: column;
+    }
+
+    .card4 {
+        flex-direction: column;
+        background-color: #D0BFFF;
+    }
+
+    .menu {
+        position: relative;
+        top: 3%;
+    }
+}

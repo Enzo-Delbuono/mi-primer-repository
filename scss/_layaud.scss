@@ -1,0 +1,22 @@
+.grid_container{
+    display: grid;  
+    grid-template-columns: 33% 33% 33% ;
+    grid-template-rows: 490px 1fr 0fr;
+    grid-template-areas: 
+    "menu             menu        menu"
+    "presentacion presentacion presentacion"
+    "pie             pie          pie"
+    ;
+   }
+
+   .menu-navegacion{
+    grid-area: menu;
+   }
+
+   .presentacion{
+    grid-area: presentacion;
+   }
+
+   .pie{
+    grid-area: pie;
+   } 

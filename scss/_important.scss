@@ -1,0 +1,6 @@
+.important {
+    text-decoration: $subrayar;
+    &__p {
+        list-style:outside ;
+    }
+}

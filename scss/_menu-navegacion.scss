@@ -1,0 +1,15 @@
+.menu-navegacion {
+    &__img {
+        width: 160px;
+    }
+    &__h1{
+        list-style: outside;
+        text-align: $centrar;
+        font-size: 300%;
+    }
+    &__enlses{
+        margin-left: 453px ;
+        font-size: 25px;
+        display: flex;
+    }
+}
