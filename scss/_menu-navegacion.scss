@@ -1,13 +1,14 @@
 .menu-navegacion {
+    text-align: $centrar;
     &__img {
-        width: 160px;
+        width: 250px;
     }
     &__h1{
         list-style: outside;
         text-align: $centrar;
         font-size: 300%;
     }
-    &__enlses{
+    &__enlaces{
         margin-left: 453px ;
         font-size: 25px;
         display: flex;

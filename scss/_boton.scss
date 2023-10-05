@@ -5,3 +5,10 @@
     } 
 
 }
+
+.importante {
+    text-decoration: underline;
+    &__p {
+        list-style:outside ;
+    }
+}
