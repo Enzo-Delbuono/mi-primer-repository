@@ -55,7 +55,7 @@ h1 {
   flex-direction: row;
 }
 .card1 p {
-  width: 350px;
+  width: 356px;
 }
 .card1 li {
   list-style: none;
@@ -125,6 +125,12 @@ h1 {
   margin-right: 100px;
 }
 
+.img5 {
+  margin-right: 15px;
+  margin-left: 100px;
+  margin-bottom: 25px;
+}
+
 .texto {
   margin-left: 120px;
   padding-left: 44px;
@@ -151,6 +157,8 @@ h1 {
 .promociones {
   margin-left: 320px;
   margin-right: 25px;
+  margin-bottom: 15px;
+  border-style: solid;
 }
 .promociones p {
   text-align: center;
