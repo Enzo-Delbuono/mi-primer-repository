@@ -1,28 +1,79 @@
 @media (min-width: 576px) and (max-width: 767px){
-    .grid_container{
-        display: grid;  
-        grid-template-columns: 1fr ;
-        grid-template-areas: 
-        "menu"
-        "presentacion"
-        "pie"
-        ;
-    }
+
     .img1 {
         width: 400px;
         margin-left: 100px;
     }
+
+    .img2{
+        border-style: none;
+    }
+
+    .img3{
+        border-style: none;
+    }
+
+    .img4{
+        margin-right: 3px;
+        width: 276px;
+        height: 406px;
+    }
+
+    .img5 {
+        flex-direction: column;
+        width: 353px;
+        height: 772px;
+        display: flex;
+        margin-bottom:-130px; 
+        margin-left: 0px;
+    }
+    
+    .texto1{
+        margin-left: 0px;
+    }
+
     .card1 {
         flex-direction: column;
+        margin-top: 200px; 
+    }
+
+    .card2 {
+        margin-top: 164px;
+        margin-left: -62px;
+
+    }
+
+    .columna{
+        margin-left: 100px;
+        flex-direction: column;
+    }
+    
+    .promociones {
+        margin-left: 21px;
+        width: 570px;
     }
 
     .card4 {
         flex-direction: column;
-        background-color: #D0BFFF;
+        margin-top: 200px;
     }
 
     .menu {
         position: relative;
         top: 3%;
     }
+
+    .menu-navegacion img {
+        margin-left: 38px;
+    }
+
+    h1{
+        margin-left: 28px;
+    }
+
+    .menu-navegacion-enlaces {
+        margin-left: 37px; 
+        flex-direction: column;
+    }
 }
+

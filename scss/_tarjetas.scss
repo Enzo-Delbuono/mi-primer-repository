@@ -23,10 +23,7 @@
     &__li {
         list-style: $quitar_punto ;
     }
-    &__img{
-        @include alto-ancho (450px, 570px);
-        
-    }
+
 }
 
 .card3 { 
@@ -41,7 +38,7 @@
     width: 500px;
     font-size: 20px ;
     display: flex;
-    flex-direction: row;  background-color:#BEADFA ;
+    flex-direction: row;
     width: 500px;
     font-size: 20px ;
     display: flex;
