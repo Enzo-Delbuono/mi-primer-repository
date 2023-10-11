@@ -73,6 +73,10 @@ h1 {
 .card2 li {
   list-style: none;
 }
+.card2 img {
+  height: 500px;
+  width: 400px;
+}
 
 .card3 p {
   text-align: end;
@@ -102,10 +106,13 @@ h1 {
   margin-right: 45px;
   margin-left: 100px;
   text-align: end;
+  border-style: solid;
 }
 
 .img2 {
   margin-right: 25px;
+  margin-left: 100px;
+  border-style: solid;
 }
 
 .img3 {
@@ -138,6 +145,7 @@ h1 {
   padding-left: 44px;
   margin-top: -39px;
   padding-top: 49px;
+  border-style: solid;
   margin-left: 100px;
 }
 
@@ -159,6 +167,7 @@ h1 {
   margin-left: 320px;
   margin-right: 25px;
   margin-bottom: 15px;
+  border-style: solid;
 }
 .promociones p {
   text-align: center;
@@ -181,6 +190,7 @@ h1 {
 .importante {
   text-decoration: underline;
 }
+
 .importante p {
   list-style: outside;
 }
