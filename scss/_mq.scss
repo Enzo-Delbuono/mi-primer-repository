@@ -7,6 +7,7 @@
 
     .img2{
         border-style: none;
+        margin-left: 0px;
     }
 
     .img3{
@@ -29,7 +30,7 @@
     }
     
     .texto1{
-        margin-left: 0px;
+        margin-left: -140px;
     }
 
     .card1 {
@@ -51,6 +52,10 @@
     .promociones {
         margin-left: 21px;
         width: 570px;
+
+        img{
+            width: 100%;
+        }
     }
 
     .card4 {

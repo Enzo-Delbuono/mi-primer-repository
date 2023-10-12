@@ -153,6 +153,10 @@ h1 {
   text-align: center;
 }
 
+.texto2 {
+  text-align: center;
+}
+
 .galeria {
   width: 200px;
 }
@@ -190,7 +194,6 @@ h1 {
 .importante {
   text-decoration: underline;
 }
-
 .importante p {
   list-style: outside;
 }
@@ -202,6 +205,7 @@ h1 {
   }
   .img2 {
     border-style: none;
+    margin-left: 0px;
   }
   .img3 {
     border-style: none;
@@ -220,7 +224,7 @@ h1 {
     margin-left: 0px;
   }
   .texto1 {
-    margin-left: 0px;
+    margin-left: -140px;
   }
   .card1 {
     flex-direction: column;
@@ -237,6 +241,9 @@ h1 {
   .promociones {
     margin-left: 21px;
     width: 570px;
+  }
+  .promociones img {
+    width: 100%;
   }
   .card4 {
     flex-direction: column;
