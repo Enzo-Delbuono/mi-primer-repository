@@ -1,0 +1,14 @@
+.promociones {
+
+    margin-left: 320px;
+    margin-right: 25px; 
+    margin-bottom: 15px;
+    border-style: solid;
+   
+    &__p{
+        text-align: $centrar;
+    }
+   &__img {
+    width: 500px;
+   }
+}

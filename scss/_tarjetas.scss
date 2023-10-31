@@ -1,0 +1,57 @@
+.card1 {
+    
+    width: 500px;
+    font-size: 20px ;
+    display: flex;
+    flex-direction: row;
+    &__p{
+        width: 356px;
+    }
+    &__li{
+        list-style: $quitar_punto ;
+        width: 450px;
+        font-size: 20px ;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.card2 {
+    display: flex;
+    flex-direction: row;
+    &__li {
+        list-style: $quitar_punto ;
+    }
+
+    &__img{
+        height: 500px;
+        width: 400px;
+    }
+
+}
+
+.card3 { 
+    &__p{
+       text-align: end;
+        margin: 2%;  
+        text-decoration: underline;
+    }
+}
+
+.card4 {
+    width: 500px;
+    font-size: 20px ;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    font-size: 20px ;
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+}
+
+
+.enlaces{
+    font-size: 20px;
+    margin-left: 145px;
+}

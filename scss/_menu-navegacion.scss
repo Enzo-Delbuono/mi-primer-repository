@@ -1,0 +1,18 @@
+.menu-navegacion {
+    text-align: $centrar; 
+    &__img{
+        width: 200px;
+        border-radius: 35%;
+    }
+    &__h1{
+        list-style: outside;
+        text-align: $centrar;
+        font-size: 300%;
+    }
+    &__enlaces{
+        margin-left: 453px ;
+        font-size: 25px;
+        display: flex;
+    }
+   
+}

@@ -1,0 +1,14 @@
+.boton {
+    &__li{
+        list-style: $quitar_punto;
+         margin: 10px;
+    } 
+
+}
+
+.importante {
+    text-decoration: underline;
+    &__p {
+        list-style:outside ;
+    }
+}

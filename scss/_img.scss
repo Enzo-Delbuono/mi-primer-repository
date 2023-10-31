@@ -1,0 +1,41 @@
+.img1 {
+    @include alto-ancho (400px, 550px);
+    margin-right: 45px;
+    margin-left:100px;
+    text-align: end;
+    border-style: solid;
+}
+
+.img2 {
+    margin-right: 25px;
+    margin-left: 100px;
+    border-style: solid;
+}
+
+.img3 {
+    margin-left: 100px;
+    margin-right: 25px;
+
+}
+
+.img4 {
+    height: 688px;
+}
+
+.img5 {
+    @include alto-ancho (400px, 550px);
+    margin-right: 45px;
+    margin-left:100px;
+    text-align: end;
+
+}
+
+
+.img7{
+     margin-right: 15px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    width: 353px;
+    height: 772px; 
+}
+  
