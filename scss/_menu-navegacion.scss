@@ -1,7 +1,8 @@
 .menu-navegacion {
-    text-align: $centrar;
-    &__img {
-        width: 250px;
+    text-align: $centrar; 
+    &__img{
+        width: 200px;
+        border-radius: 35%;
     }
     &__h1{
         list-style: outside;
@@ -13,4 +14,5 @@
         font-size: 25px;
         display: flex;
     }
+   
 }

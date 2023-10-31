@@ -30,7 +30,8 @@ h1 {
   text-align: center;
 }
 .menu-navegacion img {
-  width: 250px;
+  width: 200px;
+  border-radius: 35%;
 }
 .menu-navegacion h1 {
   list-style: outside;
